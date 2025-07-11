@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+dist/
+build/
+.DS_Store
+
+# Logs
+*.log
+
+# Mac system files
+.env
+*.env
+.idea/
+.vscode/
+
+# Dossiers à ignorer
+dist/
+build/
+*.dmg
+*.exe
+*.zip
+*.pkg
