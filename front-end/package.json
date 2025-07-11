@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Njordan55/administrat_app/issues"
   },
-  "homepage": "https://github.com/Njordan55/administrat_app#readme"
+  "homepage": "https://github.com/Njordan55/administrat_app#readme",
+  "devDependencies": {
+    "electron": "^37.2.1"
+  }
 }
