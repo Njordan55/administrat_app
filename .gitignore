@@ -16,7 +16,3 @@ build/
 # Dossiers à ignorer
 dist/
 build/
-*.dmg
-*.exe
-*.zip
-*.pkg
