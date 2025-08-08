@@ -69,7 +69,8 @@ Best Practices für die Zusammenarbeit
 Nützliche Befehle
 
 Befehl                      Zweck
-npm install                 Alle Workspaces und Abhängigkeiten     
+npm install                 Alle Workspaces und 
+                            Abhängigkeiten     
                             installieren
 
 npm run start:front         Frontend starten
@@ -77,5 +78,7 @@ npm run start:front         Frontend starten
 npm run start:back          Backend starten
 
 npm run start:electron      Electron App starten
-npm run start               Alle drei (front, back, electron) parallel
-                            starten
+
+npm run start               Alle drei (front, 
+                            back, electron) 
+                            parallel starten
