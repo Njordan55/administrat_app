@@ -1,18 +1,24 @@
 # Node modules
 node_modules/
+**/nonde_modules/
+
+# Build output
 dist/
 build/
-.DS_Store
 
 # Logs
 *.log
 
 # Mac system files
+.DS_Store
+
+# Environment variables
 .env
 *.env
+
+# IDE specific files
 .idea/
 .vscode/
 
-# Dossiers à ignorer
-dist/
-build/
+# Ignore lock files from sub-projects
+**/package-lock.json

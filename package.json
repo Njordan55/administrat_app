@@ -1,0 +1,19 @@
+{
+  "name": "administrat_app",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "front-end",
+    "back-end",
+    "electron"
+  ],
+  "scripts": {
+    "start:front": "npm run start --workspace front-end",
+    "start:back": "npm run start --workspace back-end",
+    "start:electron": "npm run start --workspace electron",
+    "install:all": "npm install"
+  },
+  "dependencies": {
+    "electron": "^1.0.0"
+  }
+}
