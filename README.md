@@ -23,13 +23,15 @@ administrat_app/
         └── package.json
 
 
-Änderungen & wichtige Hinweise:
+Änderungen & wichtige Hinweise (Stand: 17.08.2025):
 
 	•	Einführung von npm Workspaces im Root-package.json, um Abhängigkeiten zentral und für alle Teilprojekte zu verwalten.
 	•	node_modules wird nur einmal im Root-Verzeichnis installiert, alle Unterprojekte referenzieren diese Installation.
 	•	Skripte im Root-package.json ermöglichen paralleles Starten der Frontend-, Backend- und Electron-Komponenten.
-	•	.gitignore angepasst, um sensible und große Dateien wie node_modules/, Build-Artefakte und Umgebungsvariablen auszuschließen.
-	•	Sicherheitswarnungen bei Abhängigkeiten (z.B. Electron) regelmäßig prüfen und Updates einspielen.
+    •	NEU: Das Skript start-sequential.sh startet Backend und Frontend zuerst und wartet, bis das Frontend bereit ist, bevor Electron gestartet wird. Dadurch wird ein Timing-Problem beim Starten der Electron-App vermieden.
+    •	Manuelle Reihenfolge: Backend und Frontend zuerst starten, dann Electron, sobald das Frontend unter http://localhost:3000 erreichbar ist.
+    •	.gitignore angepasst, um sensible und große Dateien wie node_modules/, Build-Artefakte und Umgebungsvariablen auszuschließen.
+    •	Sicherheitswarnungen bei Abhängigkeiten (z.B. Electron) regelmäßig prüfen und Updates einspielen.
 
 
 Installation & Setup
@@ -69,16 +71,29 @@ Best Practices für die Zusammenarbeit
 Nützliche Befehle
 
 Befehl                      Zweck
+-----------------------------------------------
+Install all Depency
 npm install                 Alle Workspaces und 
                             Abhängigkeiten     
                             installieren
-
+-----------------------------------------------
+-   Running the Project manualy
 npm run start:front         Frontend starten
 
 npm run start:back          Backend starten
 
 npm run start:electron      Electron App starten
-
+------------------------------------------------
+-   Running the Complet project
+    (Startup timing issue possible)
 npm run start               Alle drei (front, 
                             back, electron) 
                             parallel starten
+------------------------------------------------
+-   Running the Project whith Automated
+    "SEQUENCIAL"
+bash start-sequential.sh    To run the Backend
+                            than the Frontend
+                            and first llllllrn
+                            Electron when thy
+                            are ready.
