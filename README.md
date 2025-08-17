@@ -61,7 +61,6 @@ npm run start:electron
 
 npm run start
 
-
 Best Practices für die Zusammenarbeit
 	•	Neue Dependencies immer im jeweiligen Unterordner (front-end, back-end, electron) hinzufügen.
 	•	Nach Änderung der package.json immer im Root-Verzeichnis npm install ausführen.
@@ -81,7 +80,7 @@ Install all Depency
 Alle Workspaces und Abhängigkeiten installieren
 
 -----------------------------------------------
--   Running the Project manualy
+Running the Project manualy
 
 * npm run start:front
 
@@ -96,16 +95,15 @@ Backend starten
 Electron App starten
 
 ------------------------------------------------
--   Running the Complet project
-    (Startup timing issue possible)
+Running the Complet project
+(Startup timing issue possible)
 
 * npm run start
 
 Alle drei (front, back, electron) parallel starten
 
 ------------------------------------------------
--   Running the Project whith Automated
-    "SEQUENCIAL"
+Running the Project whith Automated "SEQUENCIAL"
 
 * bash start.sh
 
