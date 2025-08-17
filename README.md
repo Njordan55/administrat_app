@@ -7,10 +7,15 @@ administrat_app ist eine modulare Desktop-Applikation für ein Sprachinstitut, b
 Projektstruktur:
 
 administrat_app/
+
         │── package.json              # Root-Workspace-Konfiguration
+
         │── README.md                 # Dieses Dokument
+
         │── .gitignore
+
         │── node_modules/             # Gemeinsamer node_modules-Ordner (verwaltet durch Workspaces)
+        
         │
         │── front-end/                # Next.js Webfrontend
         │   └── package.json
