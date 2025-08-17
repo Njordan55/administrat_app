@@ -35,6 +35,7 @@ administrat_app/
 
 
 Installation & Setup
+
 	1.	Repository klonen:
 
 git clone https://github.com/Njordan55/administrat_app.git
@@ -92,7 +93,7 @@ npm run start               Alle drei (front,
 ------------------------------------------------
 -   Running the Project whith Automated
     "SEQUENCIAL"
-bash start-sequential.sh    To run the Backend
+bash start.sh    To run the Backend
                             than the Frontend
                             and first llllllrn
                             Electron when thy
