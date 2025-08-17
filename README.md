@@ -107,5 +107,4 @@ Running the Project whith Automated "SEQUENCIAL"
 
 * bash start.sh
 
-        To run the Backend than the Frontend and first run
-Electron when thy are ready.
+        To run the Backend than the Frontend and first run Electron when thy are ready.
