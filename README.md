@@ -77,22 +77,22 @@ Install all Depency
 
 * npm install               
 
-Alle Workspaces und Abhängigkeiten installieren
+        Alle Workspaces und Abhängigkeiten installieren
 
 -----------------------------------------------
 Running the Project manualy
 
 * npm run start:front
 
-Frontend starten
+        Frontend starten
 
 * npm run start:back
 
-Backend starten
+        Backend starten
 
 * npm run start:electron
 
-Electron App starten
+        Electron App starten
 
 ------------------------------------------------
 Running the Complet project
@@ -100,12 +100,12 @@ Running the Complet project
 
 * npm run start
 
-Alle drei (front, back, electron) parallel starten
+        Alle drei (front, back, electron) parallel starten
 
 ------------------------------------------------
 Running the Project whith Automated "SEQUENCIAL"
 
 * bash start.sh
 
-To run the Backend than the Frontend and first run
+        To run the Backend than the Frontend and first run
 Electron when thy are ready.
