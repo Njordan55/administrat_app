@@ -76,33 +76,38 @@ Befehl                      Zweck
 -----------------------------------------------
 Install all Depency
 
-* npm install                 Alle Workspaces und 
-                            Abhängigkeiten     
-                            installieren
+* npm install               
+
+Alle Workspaces und Abhängigkeiten installieren
 
 -----------------------------------------------
 -   Running the Project manualy
 
-* npm run start:front         Frontend starten
+* npm run start:front
 
-* npm run start:back          Backend starten
+Frontend starten
 
-* npm run start:electron      Electron App starten
+* npm run start:back
+
+Backend starten
+
+* npm run start:electron
+
+Electron App starten
 
 ------------------------------------------------
 -   Running the Complet project
     (Startup timing issue possible)
 
-* npm run start               Alle drei (front, 
-                            back, electron) 
-                            parallel starten
+* npm run start
+
+Alle drei (front, back, electron) parallel starten
 
 ------------------------------------------------
 -   Running the Project whith Automated
     "SEQUENCIAL"
 
-* bash start.sh    To run the Backend
-                            than the Frontend
-                            and first llllllrn
-                            Electron when thy
-                            are ready.
+* bash start.sh
+
+To run the Backend than the Frontend and first run
+Electron when thy are ready.
