@@ -71,41 +71,40 @@ Best Practices für die Zusammenarbeit
 
 Nützliche Befehle
 
-Befehl                      Zweck
+Befehl
 
 -----------------------------------------------
 Install all Depency
 
-* npm install               
+Alle Workspaces und Abhängigkeiten installieren
 
-        Alle Workspaces und Abhängigkeiten installieren
-
+        npm install 
 -----------------------------------------------
 Running the Project manualy
 
-* npm run start:front
+Frontend starten
 
-        Frontend starten
+        npm run start:front
 
-* npm run start:back
+Backend starten
 
-        Backend starten
+        npm run start:back
 
-* npm run start:electron
+Electron App starten
 
-        Electron App starten
+        npm run start:electron
 
 ------------------------------------------------
 Running the Complet project
 (Startup timing issue possible)
 
-* npm run start
+Alle drei (front, back, electron) parallel starten
 
-        Alle drei (front, back, electron) parallel starten
+        npm run start
 
 ------------------------------------------------
 Running the Project whith Automated "SEQUENCIAL"
 
-* bash start.sh
+To run the Backend than the Frontend and first run Electron when thy are ready.
 
-        To run the Backend than the Frontend and first run Electron when thy are ready.
+        bash start.sh
