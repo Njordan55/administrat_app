@@ -37,31 +37,37 @@ administrat_app/
 
 Installation & Setup
 
-	1.	Repository klonen:
+1.	Repository klonen:
 
-git clone https://github.com/Njordan55/administrat_app.git
+git clone 
+        https://github.com/Njordan55/administrat_app.git
 
 cd administrat_app
 
-    2.	Alle Abhängigkeiten zentral installieren:
+2.	Alle Abhängigkeiten zentral installieren:
 
-npm install
+        npm install
 
-	3.	Entwicklung starten:
+3.	Entwicklung starten:
 
-        •	Frontend:
-npm run start:front
+    •	Frontend:
+        npm run start:front
 
-    	•	Backend:
-npm run start:back
+    •	Backend:
+        npm run start:back
 
     •	Electron Desktop-App:
-npm run start:electron
+        npm run start:electron
 
-	4.	Alternativ alle Komponenten parallel starten:
+4.	Alternativ alle Komponenten parallel starten:
 
-npm run start
+        npm run start
 
+5.  Alternativ alle Komponenten sequencely andparallel starten:
+
+        bash start.sh
+
+        
 Best Practices für die Zusammenarbeit
 	•	Neue Dependencies immer im jeweiligen Unterordner (front-end, back-end, electron) hinzufügen.
 	•	Nach Änderung der package.json immer im Root-Verzeichnis npm install ausführen.
