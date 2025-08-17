@@ -35,6 +35,7 @@ administrat_app/
 
 
 Installation & Setup
+
 	1.	Repository klonen:
 
 git clone https://github.com/Njordan55/administrat_app.git
