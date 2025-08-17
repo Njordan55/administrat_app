@@ -9,13 +9,9 @@ Projektstruktur:
 administrat_app/
 
         │── package.json              # Root-Workspace-Konfiguration
-
         │── README.md                 # Dieses Dokument
-
         │── .gitignore
-
         │── node_modules/             # Gemeinsamer node_modules-Ordner (verwaltet durch Workspaces)
-        
         │
         │── front-end/                # Next.js Webfrontend
         │   └── package.json
